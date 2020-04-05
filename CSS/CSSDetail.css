@@ -1,0 +1,21 @@
+.a{
+    color: #FFFFFF;
+    background-color: #808080;
+    font: 150% Verdana, sans-serif;
+    margin: auto ;
+    padding: 4%;
+    border: #A9A9A9;
+
+}
+.b{
+    color: #000000;
+    background-color: #D3D3D3;
+    font: 150% Verdana, sans-serif;
+    margin: auto ;
+    padding: 3%;
+    border: #A9A9A9;
+
+}
+.hoofd{
+    text-transform: uppercase ;
+}
