@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/CSSHome.css">
 
 </head>
-<body >
+<body class="bg-dark">
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="index.html">Home <span class="sr-only">(huidig)</span></a>
 
@@ -49,18 +49,35 @@
         </ul>
     </div>
 </nav>
-
-<div class="jumbotron-fluid backgroundpic">
-    <div class="container">
-        <h1 class="display-4 text-primary">welcome to the world of CS</h1>
-        <p class="lead  text-light">there are multiple versions of the game called Counter Strike and we will explore this on this site</p>
-        <hr class="my-4">
-        <p class="text-light">The most popular version right now is called Counter Strike Global Offensive</p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg " href="DetailSource.html" role="button">Learn more</a>
-        </p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1 class="display-4 text-light">video of esports in 2018 </h1>
+            <button id="btnPlayYouTube"
+                    type="button" class="btn btn-light btn-lg" data-toggle="modal"
+                    data-target="#YouTubeModal">
+                Click HERE
+            </button>
+        </div>
     </div>
+</div>
 
+<div class="modal fade" id="YouTubeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-dark text-light">
+                <h4 class="modal-title" id="myModalLabel">Biggest event in Esports for CSGO</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/aKvqMFs2544" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="footer">
