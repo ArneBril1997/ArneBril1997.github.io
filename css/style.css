@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    background-color: #090909;
+    color: #BBBBBB;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    /*padding-bottom: 25px;*/
+}
+
+.header a {
+    font-size: 20px;
+    color: #67823A;
+}
+
+.header p {
+    padding: 15px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.jumbotron {
+    background-image: url("../img/programmerBackground.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #BBBBBB;
+    padding-bottom: 800px;
+    margin: 0;
+    height: 100%;
+}
+
+.jumbotron h1 {
+    padding-top: 90px;
+    padding-bottom: 10px;
+}
+
+.introduction {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #BBBBBB;
+    background: #36453B;
+}
+
+.skills {
+    padding-top: 10px;
+    background: #BBBBBB;
+    padding-bottom: 20px;
+}
+
+.card {
+    background: #cacaca;
+}
+
+.icon {
+    color: #67823A;
+}
+
+.motion {
+    background: #36453B;
+    color: #BBBBBB;
+    padding-bottom: 20px;
+}
+
+.motion h1 {
+    padding: 10px;
+}
+
+.carousel-caption h5, .carousel-caption p {
+    color: #BBBBBB;
+}
+
+p {
+    font-size: 20px;
+}
+
+h2 {
+    padding: 5px;
+}
+
+.map {
+    background-color: #BBBBBB;
+}
+
+.contact {
+    background-color: #36453B;
+    color: #BBBBBB;
+}
+
+.contact a {
+    color: #BBBBBB;
+    padding-left: 175px;
+}
+
+.contact a:hover {
+    color: #8d8d8d;
+}
+
+.video {
+    background-color: #BBBBBB;
+}
+
+.carousel-color h5, .carousel-color p {
+    color: #090909;
+}
